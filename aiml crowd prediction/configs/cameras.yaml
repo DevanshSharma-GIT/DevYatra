@@ -1,0 +1,20 @@
+cameras:
+  - camera_id: gate-ambaji
+    site: Ambaji
+    source: "0"
+    stream_id: ambaji-gate
+    frame_skip: 1
+    description: "Ambaji main gate (simulated)"
+    latitude: 24.3313
+    longitude: 72.7814
+    timezone: Asia/Kolkata
+
+  - camera_id: pier-dwarka
+    site: Dwarka
+    source: "1"
+    stream_id: dwarka-pier
+    frame_skip: 1
+    description: "Dwarka pier (simulated)"
+    latitude: 22.2442
+    longitude: 68.9685
+    timezone: Asia/Kolkata

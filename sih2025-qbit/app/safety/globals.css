@@ -1,0 +1,19 @@
+/* Ensure dropdowns appear over other elements */
+.select-content {
+  z-index: 1002 !important;
+  position: relative;
+}
+
+/* Increase specificity for Radix UI or Shadcn UI components */
+[data-radix-popper-content-wrapper] {
+  z-index: 1002 !important;
+}
+
+/* General fixes for overlapping elements */
+.leaflet-container {
+  z-index: 1;
+}
+
+.absolute-form {
+  z-index: 1001;
+}

@@ -1,0 +1,21 @@
+# Example camera configuration for run_camera_capture.py
+cameras:
+  - camera_id: gate-ambaji
+    site: Ambaji
+    source: 0 # USB webcam index or RTSP/HTTP URL
+    stream_id: ambaji-gate
+    frame_skip: 2 # Optional per-camera frame skipping (process every 2nd frame)
+    description: "Ambaji main gate webcam"
+    latitude: 24.3313
+    longitude: 72.7814
+    timezone: Asia/Kolkata
+
+  - camera_id: pier-dwarka
+    site: Dwarka
+    source: rtsp://dwarka.example.com/live
+    stream_id: dwarka-pier
+    frame_skip: 3
+    description: "Dwarka pier overlook"
+    latitude: 22.2442
+    longitude: 68.9685
+    timezone: Asia/Kolkata

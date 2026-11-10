@@ -1,0 +1,14 @@
+import { NextResponse } from "next/server"
+
+export async function POST() {
+  const response = NextResponse.json({ success: true })
+  response.cookies.set({
+    name: "heritedge-session",
+    value: "",
+    path: "/",
+    httpOnly: true,
+    sameSite: "lax",
+    maxAge: 0,
+  })
+  return response
+}

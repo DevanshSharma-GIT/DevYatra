@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+env/
+ENV/
+
+# Node / JavaScript
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Dotenv files
+.env
+.env.*
+!.env.example

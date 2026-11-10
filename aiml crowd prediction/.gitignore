@@ -1,0 +1,61 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Compiled / extension artifacts
+*.so
+*.dylib
+*.dll
+
+# Virtual environments & Python environment files
+.venv/
+venv/
+.venv311/
+venv311/
+.env
+.env.*
+*.env
+
+# Package/build artefacts
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Test & coverage outputs
+.pytest_cache/
+.coverage
+coverage/
+coverage.xml
+htmlcov/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# IDE & tooling
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Streamlit runtime files
+.streamlit/secrets.toml
+.streamlit/*.yaml
+
+# Generated data and artefact directories
+/data/incoming/
+/data/processed/
+/data/processed_archive/
+/models/baseline/
+/models/advanced/
+
+# Logs & temp
+logs/
+*.log
+**/tmp/
+**/temp/
